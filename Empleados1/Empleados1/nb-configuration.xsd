@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="project-shared-configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="properties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion" type="xs:string" />
+              <xs:element name="org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
